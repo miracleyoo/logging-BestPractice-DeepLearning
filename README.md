@@ -11,6 +11,6 @@ This document describes the best practices for using the `logging` module in Dee
   - Give each module its own logger with the module's name.
   - A proper format for the log messages for deep learning projects, which includes the datetime, module name, message level, line number, and the message itself.
 - With minimal effort, you can use it in your own project by replacing your `print` statements with statements like `logger.info` or `logger.debug`.
-- It is based on the [Python Logging Cookbook](https://docs.python.org/3/howto/logging-cookbook.html) and the [Python Logging HOWTO](https://docs.python.org/3/howto/logging.html).
+- It is based on the [Python Logging Cookbook](https://docs.python.org/3/howto/logging-cookbook.html), [Python Logging HOWTO](https://docs.python.org/3/howto/logging.html), and the [Python Logging Best Practices: The Ultimate Guide](https://coralogix.com/blog/python-logging-best-practices-tips/).
 
 Have fun!
